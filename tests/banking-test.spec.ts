@@ -27,12 +27,17 @@ test('Verify Quick Transactions Flow', async ({ page, loginPage, homePage, quick
         await quickTransactionPage.submitTransaction();
         await quickTransactionPage.confirmTransaction();
         txnRef = await quickTransactionPage.getTransactionReference();
-        expect(txnRef).toMatch(/TXN-\d+/);
+       expect(txnRef).toMatch(/^TXN-\d+-\d+$/);
     });
 
     await test.step('Transaction History Verification', async () => {
         await transactionHistoryPage.clickViewHistory();
         await transactionHistoryPage.verifyTransactionReference(txnRef);
+
+await transactionHistoryPage.verifyTransactionDetails(
+  transferData.transferToAccount,
+  `-$${transferData.amount}.00`
+);
     });
 });
 
