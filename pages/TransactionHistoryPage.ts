@@ -1,9 +1,7 @@
-import { Page } from '@playwright/test';
+import { Page, expect } from '@playwright/test';
 import { BasePage } from './BasePage';
 
 export class TransactionHistoryPage extends BasePage {
-  private viewHistoryButton = 'button:has-text("View History")';
-  private historyHeading = 'h2:has-text("Transaction History")';
 
   constructor(page: Page) {
     super(page);
@@ -11,21 +9,33 @@ export class TransactionHistoryPage extends BasePage {
 
   async clickViewHistory(): Promise<void> {
     await this.page.getByRole('button', { name: 'View History' }).click();
-    await this.page.getByRole('heading', { name: /Transaction History/ }).waitFor();
+
+    // wait for heading (stable)
+    await expect(
+      this.page.getByRole('heading', { name: /Transaction History/ })
+    ).toBeVisible();
   }
 
   async verifyTransactionReference(reference: string): Promise<void> {
-    const historySection = this.page.locator('text=Transaction History').locator('..');
-    await historySection.getByText(reference).waitFor();
+    // wait for the reference to appear in visible area
+    await expect(
+      this.page.locator(`text=${reference}`).first()
+    ).toBeVisible({ timeout: 10000 });
   }
 
   async verifyTransactionDetails(account: string, amount: string): Promise<void> {
-    const historySection = this.page.locator('text=Transaction History').locator('..');
-    await historySection.getByText(`Transfer to ${account}`).waitFor();
-    await historySection.getByText(amount).waitFor();
+    await expect(
+      this.page.getByText(`Transfer to ${account}`).first()
+    ).toBeVisible();
+
+    await expect(
+      this.page.getByText(amount).first()
+    ).toBeVisible();
   }
 
   async isHistoryVisible(): Promise<boolean> {
-    return await this.page.getByRole('heading', { name: /Transaction History/ }).isVisible();
+    return await this.page
+      .getByRole('heading', { name: /Transaction History/ })
+      .isVisible();
   }
 }
