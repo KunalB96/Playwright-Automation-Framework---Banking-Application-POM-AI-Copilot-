@@ -1,0 +1,123 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 21/04/2026 19:50:39
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e10]:
+      - generic [ref=e12]:
+        - button "Transfers" [ref=e13] [cursor=pointer]
+        - button "Bill Payments" [ref=e14] [cursor=pointer]
+      - generic [ref=e17]:
+        - navigation [ref=e19]:
+          - link "💰 Account Management" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [ref=e21] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e23]:
+          - text: "* * * *"
+          - generic [ref=e104]:
+            - heading "🔍 Transaction Confirmation" [level=2] [ref=e105]
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]: "Transaction Type:"
+                  - generic [ref=e110]: Transfer
+                - generic [ref=e111]:
+                  - generic [ref=e112]: "Amount:"
+                  - generic [ref=e113]: $500.00
+                - generic [ref=e114]:
+                  - generic [ref=e115]: "Description:"
+                  - generic [ref=e116]: Test Transfer
+                - generic [ref=e117]:
+                  - generic [ref=e118]: "Transfer To Account:"
+                  - generic [ref=e119]: "9876543210"
+                - generic [ref=e120]:
+                  - generic [ref=e121]: "Current Balance:"
+                  - generic [ref=e122]: $10000.00
+                - generic [ref=e123]:
+                  - generic [ref=e124]: "New Balance After Transaction:"
+                  - generic [ref=e125]: $9500.00
+              - generic [ref=e126]:
+                - button "Back" [ref=e127] [cursor=pointer]
+                - button "Confirm" [ref=e128] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=e35]:
+    - generic [ref=e36]: "Latest from Testers Talk :"
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - button "Previous Video" [ref=e40] [cursor=pointer]: ▲
+        - button "Next Video" [disabled] [ref=e41]: ▼
+      - generic [ref=e42]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: "Cypress Tutorial Full Course:"
+          - link "Watch on YouTube" [ref=e86] [cursor=pointer]:
+            - /url: https://youtu.be/oJV5whmzfZI?feature=shared
+          - iframe [ref=e87]:
+            - generic [active] [ref=f86e1]:
+              - generic "YouTube Video Player" [ref=f86e3]
+              - generic [ref=f86e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f86e7] [cursor=pointer]
+                    - generic [ref=f86e12]:
+                      - generic: Testers Talk
+                      - generic: 29.4K subscribers
+        - generic [ref=e88]:
+          - generic [ref=e89]: "JavaScript For Beginners:"
+          - link "Watch on YouTube" [ref=e90] [cursor=pointer]:
+            - /url: https://youtu.be/ACUMZ3OkExQ?feature=shared
+          - iframe [ref=e91]:
+            - generic [active] [ref=f87e1]:
+              - generic "YouTube Video Player" [ref=f87e3]
+              - generic [ref=f87e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f87e7] [cursor=pointer]
+                    - generic [ref=f87e12]:
+                      - generic: Testers Talk
+                      - generic: 29.4K subscribers
+        - generic [ref=e92]:
+          - generic [ref=e93]: "API Testing Course PART-01:"
+          - link "Watch on YouTube" [ref=e94] [cursor=pointer]:
+            - /url: https://youtu.be/QKBa8lt5Wfo?feature=shared
+          - iframe [ref=e95]:
+            - generic [active] [ref=f88e1]:
+              - generic "YouTube Video Player" [ref=f88e3]
+              - generic [ref=f88e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f88e7] [cursor=pointer]
+                    - generic [ref=f88e12]:
+                      - generic: Testers Talk
+                      - generic: 29.4K subscribers
+        - generic [ref=e96]:
+          - generic [ref=e97]: "API Testing Course PART-02:"
+          - link "Watch on YouTube" [ref=e98] [cursor=pointer]:
+            - /url: https://youtu.be/o9KJhGHl49M?feature=shared
+          - iframe [ref=e99]:
+            - generic [active] [ref=f89e1]:
+              - generic "YouTube Video Player" [ref=f89e3]
+              - generic [ref=f89e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f89e7] [cursor=pointer]
+                    - generic [ref=f89e12]:
+                      - generic: Testers Talk
+                      - generic: 29.4K subscribers
+        - generic [ref=e100]:
+          - generic [ref=e101]: "API Testing Course PART-03:"
+          - link "Watch on YouTube" [ref=e102] [cursor=pointer]:
+            - /url: https://youtu.be/kay86__5eTg?feature=shared
+          - iframe [ref=e103]:
+            - generic [active] [ref=f90e1]:
+              - generic "YouTube Video Player" [ref=f90e3]
+              - generic [ref=f90e6]:
+                - generic:
+                  - generic:
+                    - button "Show player controls" [ref=f90e7] [cursor=pointer]
+                    - generic [ref=f90e12]:
+                      - generic: Testers Talk
+                      - generic: 29.4K subscribers

@@ -1,0 +1,84 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 21/04/2026 19:49:48
+  - generic [ref=e5]: Loading Banking App...
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e10]:
+      - generic [ref=e12]:
+        - button "Transfers" [ref=e13] [cursor=pointer]
+        - button "Bill Payments" [ref=e14] [cursor=pointer]
+      - generic [ref=e17]:
+        - navigation [ref=e19]:
+          - link "💰 Account Management" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [ref=e21] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - heading "💰 Account Management" [level=2] [ref=e25]
+            - generic [ref=e26]: "Balance: $10,000.00"
+            - generic [ref=e27]:
+              - generic [ref=e28]: "Account Number:"
+              - textbox "Account Number:" [ref=e29]: "1234567890"
+              - generic [ref=e30]: "Account Holder:"
+              - textbox "Account Holder:" [ref=e31]: Testers Talk User
+              - generic [ref=e32]: "Account Type:"
+              - combobox "Account Type:" [ref=e33] [cursor=pointer]:
+                - option "Savings Account" [selected]
+                - option "Checking Account"
+                - option "Business Account"
+          - text: "* * * *"
+      - text: "* * * * *"
+  - generic [ref=e35]:
+    - generic [ref=e36]: "Latest from Testers Talk :"
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - button "Previous Video" [disabled] [ref=e40]: ▲
+        - button "Next Video" [ref=e41] [cursor=pointer]: ▼
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: "Playwright TypeScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e45] [cursor=pointer]:
+            - /url: https://youtu.be/788GvvcfwTY?feature=shared
+          - iframe [ref=e46]:
+            
+        - generic [ref=e47]:
+          - generic [ref=e48]: "Playwright TypeScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e49] [cursor=pointer]:
+            - /url: https://youtu.be/YfRazDhi9Fw?feature=shared
+          - iframe [ref=e50]:
+            
+        - generic [ref=e51]:
+          - generic [ref=e52]: "Playwright TypeScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e53] [cursor=pointer]:
+            - /url: https://youtu.be/iGQ-qTLEPLw?feature=shared
+          - iframe [ref=e54]:
+            
+        - generic [ref=e55]:
+          - generic [ref=e56]: "Playwright TypeScript Course PART-04:"
+          - link "Watch on YouTube" [ref=e57] [cursor=pointer]:
+            - /url: https://youtu.be/D44k45N6S58?feature=shared
+          - iframe [ref=e58]:
+            
+        - generic [ref=e59]:
+          - generic [ref=e60]: "Playwright JavaScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e61] [cursor=pointer]:
+            - /url: https://youtu.be/2poXBtifpzA?feature=shared
+          - iframe [ref=e62]:
+            
+        - generic [ref=e63]:
+          - generic [ref=e64]: "Playwright JavaScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e65] [cursor=pointer]:
+            - /url: https://youtu.be/lM-lqPun9P8?feature=shared
+          - iframe [ref=e66]:
+            
+        - generic [ref=e67]:
+          - generic [ref=e68]: "Playwright JavaScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e69] [cursor=pointer]:
+            - /url: https://youtu.be/Exx2M5Pz06g?feature=shared
+          - iframe [ref=e70]:
+            

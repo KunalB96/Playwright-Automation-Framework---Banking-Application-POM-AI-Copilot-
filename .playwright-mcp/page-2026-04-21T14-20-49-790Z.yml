@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: 21/04/2026 19:50:48
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e10]:
+      - generic [ref=e12]:
+        - button "Transfers" [ref=e13] [cursor=pointer]
+        - button "Bill Payments" [ref=e14] [cursor=pointer]
+      - generic [ref=e17]:
+        - navigation [ref=e19]:
+          - link "💰 Account Management" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [ref=e21] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e23]:
+          - text: "* * * *"
+          - generic [ref=e129]:
+            - heading "✅ Transaction Successful" [level=2] [ref=e130]
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - generic [ref=e133]: ✅
+                - generic [ref=e134]:
+                  - heading "Transaction Completed Successfully!" [level=3] [ref=e135]
+                  - generic [ref=e136]:
+                    - generic [ref=e137]: "Transaction Type:"
+                    - generic [ref=e138]: Transfer
+                  - generic [ref=e139]:
+                    - generic [ref=e140]: "Amount:"
+                    - generic [ref=e141]: $500.00
+                  - generic [ref=e142]:
+                    - generic [ref=e143]: "Description:"
+                    - generic [ref=e144]: Test Transfer
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: "Transaction Reference:"
+                    - generic [ref=e147]: TXN-1776781247987-364
+                  - generic [ref=e148]:
+                    - generic [ref=e149]: "Date & Time:"
+                    - generic [ref=e150]: 4/21/2026, 7:50:47 PM
+              - generic [ref=e151]:
+                - button "New Transaction" [ref=e152] [cursor=pointer]
+                - button "View History" [ref=e153] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=e35]:
+    - generic [ref=e36]: "Latest from Testers Talk :"
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - button "Previous Video" [disabled] [ref=e40]: ▲
+        - button "Next Video" [ref=e41] [cursor=pointer]: ▼
+      - generic [ref=e42]:
+        - generic [ref=e154]:
+          - generic [ref=e155]: "Playwright TypeScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e156] [cursor=pointer]:
+            - /url: https://youtu.be/788GvvcfwTY?feature=shared
+          - iframe [ref=e157]:
+            - generic "YouTube Video Player" [ref=f96e3]
+        - generic [ref=e158]:
+          - generic [ref=e159]: "Playwright TypeScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e160] [cursor=pointer]:
+            - /url: https://youtu.be/YfRazDhi9Fw?feature=shared
+          - iframe [ref=e161]:
+            - generic "YouTube Video Player" [ref=f97e3]
+        - generic [ref=e162]:
+          - generic [ref=e163]: "Playwright TypeScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e164] [cursor=pointer]:
+            - /url: https://youtu.be/iGQ-qTLEPLw?feature=shared
+          - iframe [ref=e165]:
+            
+        - generic [ref=e166]:
+          - generic [ref=e167]: "Playwright TypeScript Course PART-04:"
+          - link "Watch on YouTube" [ref=e168] [cursor=pointer]:
+            - /url: https://youtu.be/D44k45N6S58?feature=shared
+          - iframe [ref=e169]:
+            - generic "YouTube Video Player" [ref=f99e3]
+        - generic [ref=e170]:
+          - generic [ref=e171]: "Playwright JavaScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e172] [cursor=pointer]:
+            - /url: https://youtu.be/2poXBtifpzA?feature=shared
+          - iframe [ref=e173]:
+            
+        - generic [ref=e174]:
+          - generic [ref=e175]: "Playwright JavaScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e176] [cursor=pointer]:
+            - /url: https://youtu.be/lM-lqPun9P8?feature=shared
+          - iframe [ref=e177]:
+            - generic "YouTube Video Player" [ref=f101e3]
+        - generic [ref=e178]:
+          - generic [ref=e179]: "Playwright JavaScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e180] [cursor=pointer]:
+            - /url: https://youtu.be/Exx2M5Pz06g?feature=shared
+          - iframe [ref=e181]:
+            - generic "YouTube Video Player" [ref=f102e3]

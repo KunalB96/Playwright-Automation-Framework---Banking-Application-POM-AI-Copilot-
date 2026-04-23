@@ -1,0 +1,14 @@
+[     429ms] [LOG] DOMContentLoaded: loggedIn = true @ https://bakkappan.github.io/Testers-Talk-Practice-Site/:2111
+[     551ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://bakkappan.github.io/Testers-Talk-Practice-Site/:0
+[   12185ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bakkappan.github.io/favicon.ico:0
+[   21880ms] [LOG] DOMContentLoaded: loggedIn = null @ https://bakkappan.github.io/Testers-Talk-Practice-Site/index.html:2111
+[   21900ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://bakkappan.github.io/Testers-Talk-Practice-Site/index.html:0
+[   64562ms] [ERROR] Attestation check for Attribution Reporting on https://www.googleadservices.com failed. @ https://bakkappan.github.io/Testers-Talk-Practice-Site/index.html:0
+[   64563ms] [ERROR] Attestation check for Attribution Reporting on https://www.googleadservices.com failed. @ https://bakkappan.github.io/Testers-Talk-Practice-Site/index.html:0
+[  103312ms] [LOG] Banking script loaded successfully @ https://bakkappan.github.io/Testers-Talk-Practice-Site/Banking-Project-Demo.html:1660
+[  103802ms] TypeError: Cannot set properties of null (setting 'innerHTML')
+    at renderEmployeeTable (https://bakkappan.github.io/Testers-Talk-Practice-Site/script.js:162:19)
+    at loadEmployees (https://bakkappan.github.io/Testers-Talk-Practice-Site/script.js:178:3)
+    at HTMLDocument.<anonymous> (https://bakkappan.github.io/Testers-Talk-Practice-Site/script.js:252:3)
+[  119807ms] [ERROR] Attestation check for Attribution Reporting on https://www.googleadservices.com failed. @ https://bakkappan.github.io/Testers-Talk-Practice-Site/Banking-Project-Demo.html:0
+[  174468ms] [ERROR] Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES @ https://googleads.g.doubleclick.net/pagead/id:0

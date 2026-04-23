@@ -1,0 +1,157 @@
+- generic [ref=e1]:
+  - generic [ref=e2]: 21/04/2026 19:50:09
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Welcome to the Testers Talk Banking Application
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - button "Transfers" [ref=e13] [cursor=pointer]
+          - button "Bill Payments" [ref=e14] [cursor=pointer]
+        - link "Logout" [ref=e71] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e17]:
+        - navigation [ref=e19]:
+          - link "💰 Account Management" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [active] [ref=e21] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e72]:
+          - heading "💳 Quick Transactions" [level=2] [ref=e73]
+          - generic [ref=e74]:
+            - generic [ref=e75]: "Transaction Type: *"
+            - 'combobox "Transaction Type: *" [ref=e76] [cursor=pointer]':
+              - option "Select transaction type"
+              - option "Deposit" [selected]
+              - option "Withdrawal"
+              - option "Transfer"
+            - generic [ref=e77]: "Amount ($): *"
+            - 'spinbutton "Amount ($): *" [ref=e78]'
+            - text: "*"
+            - generic [ref=e79]: "Description: *"
+            - 'textbox "Description: *" [ref=e80]':
+              - /placeholder: Transaction description
+            - button "Submit" [ref=e81] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=e35]:
+    - generic [ref=e36]: "Latest from Testers Talk :"
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - button "Previous Video" [disabled] [ref=e40]: ▲
+        - button "Next Video" [ref=e41] [cursor=pointer]: ▼
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: "Playwright TypeScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e45] [cursor=pointer]:
+            - /url: https://youtu.be/788GvvcfwTY?feature=shared
+          - iframe [ref=e46]:
+            - generic "YouTube Video Player" [ref=f44e3]:
+              - generic [ref=f44e6]:
+                - generic:
+                  - link "amazon.in This link opens in new tab" [ref=f44e7] [cursor=pointer]:
+                    - generic [ref=f44e8]: amazon.in
+                  - generic [ref=f44e9]:
+                    - generic [ref=f44e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f44e13]: 0:03
+                    - button "My Ad Center" [ref=f44e15] [cursor=pointer]:
+                      - generic [ref=f44e16]:
+                        - img
+        - generic [ref=e47]:
+          - generic [ref=e48]: "Playwright TypeScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e49] [cursor=pointer]:
+            - /url: https://youtu.be/YfRazDhi9Fw?feature=shared
+          - iframe [ref=e50]:
+            - generic "YouTube Video Player" [ref=f45e3]:
+              - generic [ref=f45e6]:
+                - generic:
+                  - link "amazon.in This link opens in new tab" [ref=f45e7] [cursor=pointer]:
+                    - generic [ref=f45e8]: amazon.in
+                  - generic [ref=f45e9]:
+                    - generic [ref=f45e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f45e13]: 0:03
+                    - button "My Ad Center" [ref=f45e15] [cursor=pointer]:
+                      - generic [ref=f45e16]:
+                        - img
+        - generic [ref=e51]:
+          - generic [ref=e52]: "Playwright TypeScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e53] [cursor=pointer]:
+            - /url: https://youtu.be/iGQ-qTLEPLw?feature=shared
+          - iframe [ref=e54]:
+            - generic "YouTube Video Player" [ref=f46e3]:
+              - generic [ref=f46e6]:
+                - generic:
+                  - link "amazon.in This link opens in new tab" [ref=f46e7] [cursor=pointer]:
+                    - generic [ref=f46e8]: amazon.in
+                  - generic [ref=f46e9]:
+                    - generic [ref=f46e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f46e13]: 0:02
+                    - button "My Ad Center" [ref=f46e15] [cursor=pointer]:
+                      - generic [ref=f46e16]:
+                        - img
+        - generic [ref=e55]:
+          - generic [ref=e56]: "Playwright TypeScript Course PART-04:"
+          - link "Watch on YouTube" [ref=e57] [cursor=pointer]:
+            - /url: https://youtu.be/D44k45N6S58?feature=shared
+          - iframe [ref=e58]:
+            - generic "YouTube Video Player" [ref=f47e3]:
+              - generic [ref=f47e6]:
+                - generic:
+                  - link "amazon.in This link opens in new tab" [ref=f47e7] [cursor=pointer]:
+                    - generic [ref=f47e8]: amazon.in
+                  - generic [ref=f47e9]:
+                    - generic [ref=f47e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f47e13]: 0:03
+                    - button "My Ad Center" [ref=f47e15] [cursor=pointer]:
+                      - generic [ref=f47e16]:
+                        - img
+        - generic [ref=e59]:
+          - generic [ref=e60]: "Playwright JavaScript Course PART-01:"
+          - link "Watch on YouTube" [ref=e61] [cursor=pointer]:
+            - /url: https://youtu.be/2poXBtifpzA?feature=shared
+          - iframe [ref=e62]:
+            - generic "YouTube Video Player" [ref=f48e3]:
+              - generic [ref=f48e6]:
+                - generic:
+                  - link "amazon.in This link opens in new tab" [ref=f48e7] [cursor=pointer]:
+                    - generic [ref=f48e8]: amazon.in
+                  - generic [ref=f48e9]:
+                    - generic [ref=f48e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f48e13]: 0:03
+                    - button "My Ad Center" [ref=f48e15] [cursor=pointer]:
+                      - generic [ref=f48e16]:
+                        - img
+        - generic [ref=e63]:
+          - generic [ref=e64]: "Playwright JavaScript Course PART-02:"
+          - link "Watch on YouTube" [ref=e65] [cursor=pointer]:
+            - /url: https://youtu.be/lM-lqPun9P8?feature=shared
+          - iframe [ref=e66]:
+            - generic "YouTube Video Player" [ref=f49e3]:
+              - generic [ref=f49e6]:
+                - generic:
+                  - link "amazon.in This link opens in new tab" [ref=f49e7] [cursor=pointer]:
+                    - generic [ref=f49e8]: amazon.in
+                  - generic [ref=f49e9]:
+                    - generic [ref=f49e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f49e13]: 0:03
+                    - button "My Ad Center" [ref=f49e15] [cursor=pointer]:
+                      - generic [ref=f49e16]:
+                        - img
+        - generic [ref=e67]:
+          - generic [ref=e68]: "Playwright JavaScript Course PART-03:"
+          - link "Watch on YouTube" [ref=e69] [cursor=pointer]:
+            - /url: https://youtu.be/Exx2M5Pz06g?feature=shared
+          - iframe [ref=e70]:
+            - generic "YouTube Video Player" [ref=f50e3]:
+              - generic [ref=f50e6]:
+                - generic:
+                  - link "amazon.in This link opens in new tab" [ref=f50e7] [cursor=pointer]:
+                    - generic [ref=f50e8]: amazon.in
+                  - generic [ref=f50e9]:
+                    - generic [ref=f50e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f50e13]: 0:02
+                    - button "My Ad Center" [ref=f50e15] [cursor=pointer]:
+                      - generic [ref=f50e16]:
+                        - img
